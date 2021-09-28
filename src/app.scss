@@ -8,6 +8,11 @@
     position: relative;
     top: 70px;
     scroll-snap-type: y mandatory;
+    scrollbar-width: none; //for firefox
+    &::-webkit-scrollbar {
+        //all other browsers
+        display: none;
+    }
     // for each element inside .sections
     > * {
         width: 100vw;
