@@ -6,9 +6,11 @@ export default function Topbar() {
         <div className="topbar">
             <div className="wrapper">
                 <div className="left">
-                    <a href="#intro">Intro</a>
+                    <a href="#intro" className="logo">paz fish creative</a>
+                    <div className="itemContainer">
+                        
+                    </div>
                 </div>
-                <h1>Paz Fish Creative</h1>
                 <div className="right">This is right</div>
             </div>
         </div>
