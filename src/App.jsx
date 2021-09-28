@@ -6,12 +6,15 @@ import Testimonials from "./components/testimonials/Testimonials.jsx";
 import Contact from "./components/contact/Contact.jsx";
 import Footer from "./components/footer/Footer.jsx";
 import "./app.scss";
+import { useState } from "react";
 
 
 function App() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <div className="app">
-       <Topbar/>
+       <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
           <div className="sections">
               <Intro/>
               <Portfolio/>
