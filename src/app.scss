@@ -6,7 +6,7 @@
     height: calc(100vh - 70px);
     background-color: lightgoldenrodyellow;
     position: relative;
-    top: 70px;
+    top: 125px;
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
     scrollbar-width: none; //for firefox
@@ -17,7 +17,7 @@
     // for each element inside .sections
     > * {
         width: 100vw;
-        height: calc(100vh - 70px);
+        height: calc(100vh - 125px);
         scroll-snap-align: start;
     }
 }

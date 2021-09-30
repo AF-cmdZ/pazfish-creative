@@ -1,3 +1,12 @@
-.contact {
-    background-color: lavender;
+.intro {
+    background-color: #eeeeee;
+    display: flex;
+
+        .left{
+            flex: 0.5;
+        }
+
+        .right{
+            flex: 0.5;
+        }
 }
