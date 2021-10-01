@@ -55,7 +55,14 @@
 
                 .arrowDown {
                     font-size: 80px;
-                    color: var(--dkAqua);
+                    color: var(--coolGray);
+                    animation: arrowBlink 2s infinite;
+                }
+
+                @keyframes arrowBlink {
+                    100% {
+                        opacity: 0;
+                    }
                 }
         }
     }
