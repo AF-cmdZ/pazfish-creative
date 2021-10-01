@@ -17,6 +17,14 @@ export default function Portfolio() {
                     <img src="https://source.unsplash.com/random" alt="unsplash"/>
                     <h3>Working Title</h3>
                 </div>
+                <div className="item">
+                    <img src="https://source.unsplash.com/random" alt="unsplash"/>
+                    <h3>Working Title</h3>
+                </div>
+                <div className="item">
+                    <img src="https://source.unsplash.com/random" alt="unsplash"/>
+                    <h3>Working Title</h3>
+                </div>
             </div>
         </div>
     )
