@@ -1,5 +1,6 @@
 .intro {
     background-color: var(--alabaster);
+    background-image: url('https://res.cloudinary.com/dxyv6bnjd/image/upload/v1633118812/bootcamp/background_mufor6.jpg');
     display: flex;
 
         .wrapper{
@@ -10,10 +11,11 @@
             margin: 8% auto 0;
             display: flex;
             flex-direction: column;
-            width: 60%;
+            width: 40%;
             position: relative;
             padding: 0;
             text-align: center;
+            font-weight: 400;
            
 
             .imgContainer {
@@ -39,6 +41,10 @@
                 font-size: 35px;
                 margin-bottom: 10px;
                 font-weight: 200;
+            }
+            p{
+                font-size: 18px;
+                line-height: 150%;
             }
 
         }
