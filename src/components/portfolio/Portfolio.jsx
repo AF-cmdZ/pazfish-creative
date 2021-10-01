@@ -2,6 +2,7 @@ import { React, useState, useEffect } from "react";
 import "./portfolio.scss";
 import PortfolioList from '../portfolioList/PortfolioList';
 import { featuredPortfolio, webAppPortfolio, designPortfolio, posPortfolio} from "../../data.js";
+import {KeyboardArrowDown} from "@material-ui/icons"
 
 export default function Portfolio() {
     const [selected, setSelected] = useState("featured");
@@ -49,6 +50,7 @@ export default function Portfolio() {
     return (
         <div className="portfolio" id="portfolio">
             <h1>Portfolio</h1>
+            {/* List of portfolio section names */}
             <ul>
                 {list.map((item) => (
                     <PortfolioList 
@@ -60,6 +62,7 @@ export default function Portfolio() {
                 ))}
             </ul>
 
+            {/* Images below */}
             <div className="container">
                     {data.map((d) => (
                         <div className="item">
@@ -69,6 +72,10 @@ export default function Portfolio() {
                 </div> 
                 ))}
             </div>
+
+            <a href="#works" className="arrow2">
+                    <KeyboardArrowDown className="arrowDown"/>
+            </a>
         </div>
     )
 }

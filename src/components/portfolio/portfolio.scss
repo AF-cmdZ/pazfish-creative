@@ -7,6 +7,7 @@
     align-items: center;
     color: var(--coolGray);
     padding-top: 40px;
+    position: relative;
 
     h1 {
         font-size: 50px;
@@ -82,5 +83,23 @@
                 }
             }
         }
+    }
+
+    .arrow2{
+        position: absolute;
+        bottom: 30px;
+        left: 49%;
+
+            .arrowDown {
+                font-size: 80px;
+                color: var(--coolGray);
+                animation: arrowBlink 2s infinite;
+            }
+
+            @keyframes arrowBlink {
+                100% {
+                    opacity: 0;
+                }
+            }
     }
 }
