@@ -55,17 +55,17 @@ export const designPortfolio = [
 export const posPortfolio = [
     {
         id: 1,
-        title: "Portfolio Title 1",
+        title: "Point of Sale 1",
         img: "https://source.unsplash.com/random",
     },
     {
         id: 2,
-        title: "Portfolio Title 2",
+        title: "Point of Sale 2",
         img: "https://res.cloudinary.com/dxyv6bnjd/image/upload/v1633118760/samples/food/pot-mussels.jpg",
     },
     {
         id: 3,
-        title: "Portfolio Title 3",
+        title: "Point of Sale 3",
         img: "https://source.unsplash.com/random",
     }
 ];
