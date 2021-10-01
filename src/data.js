@@ -7,7 +7,7 @@ export const featuredPortfolio = [
     {
         id: 2,
         title: "Featured Title 2",
-        img: "https://source.unsplash.com/random",
+        img: "https://res.cloudinary.com/dxyv6bnjd/image/upload/v1633118767/samples/ecommerce/leather-bag-gray.jpg",
     },
     {
         id: 3,
@@ -25,7 +25,7 @@ export const webAppPortfolio = [
     {
         id: 2,
         title: "Web App Title 2",
-        img: "https://source.unsplash.com/random",
+        img: "https://res.cloudinary.com/dxyv6bnjd/image/upload/v1633118764/samples/animals/three-dogs.jpg",
     },
     {
         id: 3,
@@ -43,7 +43,7 @@ export const designPortfolio = [
     {
         id: 2,
         title: "Design Title 2",
-        img: "https://source.unsplash.com/random",
+        img: "https://res.cloudinary.com/dxyv6bnjd/image/upload/v1633118759/samples/animals/reindeer.jpg",
     },
     {
         id: 3,
@@ -61,7 +61,7 @@ export const posPortfolio = [
     {
         id: 2,
         title: "Portfolio Title 2",
-        img: "https://source.unsplash.com/random",
+        img: "https://res.cloudinary.com/dxyv6bnjd/image/upload/v1633118760/samples/food/pot-mussels.jpg",
     },
     {
         id: 3,
