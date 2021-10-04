@@ -1,5 +1,9 @@
 @import "../../global.scss";
 
+a { 
+    text-decoration: none;
+}
+
 .portfolio {
     background-color: var(--alabaster);
     display: flex;
@@ -80,6 +84,8 @@
                     height: 100px;
                 }
 
+            
+
             img {
                 z-index: 1;
                 width: 100%;
@@ -87,21 +93,22 @@
                 object-fit: cover;
                 
             }
+            
+            
+                h3 {
+                    position: absolute;
+                    font-size: 20px;
+                    font-weight: 300;
 
-            h3 {
-                position: absolute;
-                font-size: 20px;
-                font-weight: 300;
-
-            }
-
-            &:hover {
-                background-color: var(--coolGray);
-                img {
-                    opacity: 0.2;
-                    z-index: 0;
                 }
-            }
+
+                &:hover {
+                    background-color: var(--coolGray);
+                    img {
+                        opacity: 0.2;
+                        z-index: 0;
+                    }
+                }
         }
     }
 

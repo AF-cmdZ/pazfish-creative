@@ -65,13 +65,13 @@ export default function Portfolio() {
             {/* Images below */}
             <div className="container">
                     {data.map((d) => (
-                        <div className="item">
-                    
-                    <img src={d.img} alt="unsplash"/>
-                    <h3>{d.title}</h3>
-                   
-                </div> 
-                ))}
+                        <a href={d.link} target="_blank" rel="noreferrer">
+                            <div className="item">
+                                <img src={d.img} alt="unsplash"/>
+                                     <h3>{d.title}</h3>
+                            </div>
+                        </a>
+                    ))}
             </div>
 
             <a href="#works" className="arrow2">

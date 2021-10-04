@@ -45,19 +45,19 @@ export const designPortfolio = [
         id: 1,
         title: "Design Title 1",
         img: "https://source.unsplash.com/random",
-        link: "#",
+        link: "#portfolio",
     },
     {
         id: 2,
         title: "Design Title 2",
         img: "https://res.cloudinary.com/dxyv6bnjd/image/upload/v1633118759/samples/animals/reindeer.jpg",
-        link: "#",
+        link: "#portfolio",
     },
     {
         id: 3,
         title: "Design Title 3",
         img: "https://source.unsplash.com/random",
-        link: "#",
+        link: "#portfolio",
     }
 ];
 
@@ -66,18 +66,18 @@ export const posPortfolio = [
         id: 1,
         title: "Point of Sale 1",
         img: "https://source.unsplash.com/random",
-        link: "#",
+        link: "#portfolio",
     },
     {
         id: 2,
         title: "Point of Sale 2",
         img: "https://res.cloudinary.com/dxyv6bnjd/image/upload/v1633118760/samples/food/pot-mussels.jpg",
-        link: "#",
+        link: "#portfolio",
     },
     {
         id: 3,
         title: "Point of Sale 3",
         img: "https://source.unsplash.com/random",
-        link: "#",
+        link: "#portfolio",
     }
 ];
