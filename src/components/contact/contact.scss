@@ -1,30 +1,29 @@
+@import "../../global.scss";
+
 .contact {
     background-color: var(--alabaster);
     background-image: url('https://res.cloudinary.com/dxyv6bnjd/image/upload/v1633118812/bootcamp/background_mufor6.jpg');
     display: flex;
-
-    .left {
-        flex: 0.2;
-        overflow: hidden;
-        padding: 5%;
-        display: flex;
-        justify-content: center;
-
-        .icon {
-            font-size: 200px;
-            color: var(--medGray);
-           
-        }
-
+    
+    @include mobile{ 
+        width: 100%;
+        background-image: none;
     }
 
-    .right {
-        flex: 0.8;
+    
+
+    .wrapper {
+        width: 80%;
         padding: 5%;
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin: 0 auto;
         // justify-content: center;
+
+        @include mobile{ 
+            width: 100%;
+        }
 
         h2 {
             font-size: 30px;
@@ -39,6 +38,11 @@
             align-items: center;
             padding-top: 20px;
             gap: 20px;
+
+            @include mobile{ 
+                width: 100%;
+                margin: 0 auto;
+            }
 
             input {
                 width: 300px;
@@ -72,6 +76,10 @@
                 color: var(--dkAqua);
                 font-size: 18px;
                 font-weight: 500;
+
+                @include mobile{ 
+                    height: 15%;
+                }
             }
         }
     }

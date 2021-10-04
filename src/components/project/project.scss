@@ -1,3 +1,5 @@
+@import "../../global.scss";
+
 .project {
     font-size: 14px;
     font-weight: 400;
@@ -6,6 +8,10 @@
     padding: 7px;
     border-radius: 5px;
     cursor: pointer;
+
+    @include mobile {
+        margin-right: 5%;
+    }
 
     &.active {
         background-color: var(--coolGray);

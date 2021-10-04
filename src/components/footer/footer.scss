@@ -1,3 +1,5 @@
+@import "../../global.scss";
+
 .footer {
     background-color: var(--alabaster);
     width: 100%;
@@ -6,6 +8,7 @@
     display: flex;
     justify-content: center;
     z-index: 1;
+   
 }
 
 h2 {
@@ -14,6 +17,10 @@ h2 {
 
 #links {
     line-height: 150%;
+
+    @include mobile {
+        margin: 0 auto;
+    }
 
     a {
         text-decoration: none;

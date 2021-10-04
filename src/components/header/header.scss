@@ -27,12 +27,20 @@
                 // color: inherit;
                 margin-right: 40px;
                 margin-top: 10px;
+
+                @include mobile {
+                    margin-top: 5%;
+                }
             }
 
             .itemContainer {
                 display: flex;
                 align-items: center;
                 margin-left: 30px;
+
+                @include mobile {
+                    display: none;
+                }
 
                 .icon {
                     font-size: 18px;

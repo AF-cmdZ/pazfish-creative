@@ -1,11 +1,8 @@
 import {React, useState} from "react";
 import "./contact.scss";
-import {PersonPin} from "@material-ui/icons"
-
 
 export default function Contact() {
     const [message, setMessage] = useState(false);
-
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -14,10 +11,7 @@ export default function Contact() {
 
     return (
         <div className="contact" id="contact">
-            <div className="left">
-                <PersonPin className="icon"/>
-            </div>
-            <div className="right">
+            <div className="wrapper">
                 <h2>Contact Me</h2>
                 <form onSubmit={handleSubmit}>
                     <input type="text" placeholder="Email" />
