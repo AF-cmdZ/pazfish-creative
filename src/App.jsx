@@ -1,10 +1,11 @@
-import Topbar from "./components/topbar/Topbar.jsx";
+import Header from "./components/header/Header.jsx";
 import Intro from "./components/intro/Intro.jsx";
 import Portfolio from "./components/portfolio/Portfolio.jsx";
 import Works from "./components/works/Works.jsx";
-import Testimonials from "./components/testimonials/Testimonials.jsx";
+import Resume from "./components/resume/Resume.jsx";
 import Contact from "./components/contact/Contact.jsx";
-import Menu from "./components/menu/Menu.jsx";
+import Footer from "./components/footer/Footer.jsx";
+import Navigation from "./components/navigation/Navigation.jsx";
 import "./app.scss";
 import { useState } from "react";
 
@@ -14,16 +15,16 @@ function App() {
 
   return (
     <div className="app">
-       <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
-       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+       <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+       <Navigation menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
           <div className="sections">
               <Intro/>
               <Portfolio/>
               <Works/>
-              <Testimonials/>
+              <Resume/>
               <Contact/>
+              <Footer/>
           </div>
-      {/* <Footer/>     */}
     </div>
   );
 }
