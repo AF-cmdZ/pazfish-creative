@@ -1,6 +1,6 @@
 import { React, useState, useEffect } from "react";
 import "./portfolio.scss";
-import PortfolioList from '../portfolioList/PortfolioList';
+import Project from '../project/Project.jsx';
 import { featuredPortfolio, webAppPortfolio, designPortfolio, posPortfolio} from "../../data.js";
 import {KeyboardArrowDown} from "@material-ui/icons"
 
@@ -50,10 +50,10 @@ export default function Portfolio() {
     return (
         <div className="portfolio" id="portfolio">
             <h1>Portfolio</h1>
-            {/* List of portfolio section names */}
+            {/* List of portfolio section names and project components*/}
             <ul>
                 {list.map((item) => (
-                    <PortfolioList 
+                    <Project
                         title={item.title} 
                         active={ selected === item.id} 
                         setSelected={setSelected}
