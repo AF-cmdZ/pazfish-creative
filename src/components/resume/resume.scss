@@ -1,8 +1,72 @@
-.footer {
-    background-color: gray;
-    width: 100%;
-    height: 70px;
-    position: static;
-    // bottom: 0;
-    z-index: 2;
+@import "../../global.scss";
+
+.resume {
+    height: 100%;
+
+    .resume-wrapper {
+        width: 100%;
+        display: flex;
+        height: 100%;
+        color: var(--coolGray);
+
+        @include mobile {
+            flex-direction: column;
+        }
+
+
+        .resume-left {
+            flex: 0.3;
+            background-color: var(--paleAqua);
+            padding: 2%;
+
+            .education {
+                margin-top: 5%;
+
+                    .date {
+                        margin: 10px 0;
+                        font-weight: 300;
+
+                    }
+
+                    .location {
+                        margin: 10px 0;
+                        font-weight: 600;
+                    }
+
+                    .note {
+                        margin: 10px 0;
+                        font-style: italic;
+                        font-weight: 300;
+                    }
+            }
+        }
+
+        .resume-right {
+            flex: 0.7;
+            background-color: var(--whitefish);
+            padding: 2%;
+
+            .job {
+                margin-top: 2%;
+
+                    .date {
+                        margin: 5px 0;
+                        font-weight: 300;
+
+                    }
+
+                    .location {
+                        margin: 5px 0;
+                        font-weight: 600;
+                    }
+
+                    .note {
+                        margin: 5px 0;
+                        font-style: italic;
+                        font-weight: 300;
+                    }
+            }
+
+        }
+    }
 }
