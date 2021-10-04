@@ -11,6 +11,7 @@
 
         @include mobile {
             flex-direction: column;
+            font-size: 14px;
         }
 
 
@@ -19,24 +20,43 @@
             background-color: var(--paleAqua);
             padding: 2%;
 
+            @include mobile {
+                overflow: visible;
+            }
+
             .education {
                 margin-top: 5%;
+
+                @include mobile {
+                    margin: 3px 0;
+                }
 
                     .date {
                         margin: 10px 0;
                         font-weight: 300;
-
+                        
+                        @include mobile {
+                            margin: 3px 0;
+                        }
                     }
 
                     .location {
                         margin: 10px 0;
                         font-weight: 600;
+
+                        @include mobile {
+                            margin: 3px 0;
+                        }
                     }
 
                     .note {
                         margin: 10px 0;
                         font-style: italic;
                         font-weight: 300;
+
+                        @include mobile {
+                            margin: 3px 0;
+                        }
                     }
             }
         }
@@ -46,6 +66,10 @@
             background-color: var(--whitefish);
             padding: 2%;
 
+            @include mobile {
+                overflow: visible;
+            }
+
             .job {
                 margin-top: 2%;
 
@@ -53,17 +77,29 @@
                         margin: 5px 0;
                         font-weight: 300;
 
+                        @include mobile {
+                            margin: 3px 0;
+                        }
+
                     }
 
                     .location {
                         margin: 5px 0;
                         font-weight: 600;
+
+                        @include mobile {
+                            margin: 3px 0;
+                        }
                     }
 
                     .note {
                         margin: 5px 0;
                         font-style: italic;
                         font-weight: 300;
+
+                        @include mobile {
+                            margin: 3px 0;
+                        }
                     }
             }
 
