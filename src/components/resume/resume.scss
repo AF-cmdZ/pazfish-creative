@@ -62,7 +62,7 @@
         }
 
         .resume-right {
-            flex: 0.7;
+            flex: 0.5;
             background-color: var(--whitefish);
             padding: 2%;
 
@@ -101,6 +101,22 @@
                             margin: 3px 0;
                         }
                     }
+            }
+
+        }
+
+        .pdf-right {
+            flex: 0.2;
+            background-color: var(--whitefish);
+            padding: 2%;
+
+            @include mobile {
+                display: none;
+            }
+
+            a {
+                color: var(--gold);
+                text-decoration: none;
             }
 
         }

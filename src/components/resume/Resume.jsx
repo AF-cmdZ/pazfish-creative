@@ -114,6 +114,9 @@ export default function Resume() {
                         </p>
                     </div>
                 </div>
+                <div className="pdf-right">
+                    <a href="assets/PAZFISHresume2021.pdf" target="_blank">Download PDF Resume</a>
+                </div>
             </div>
         </div>
     )
