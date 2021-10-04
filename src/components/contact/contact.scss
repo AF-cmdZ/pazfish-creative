@@ -1,4 +1,78 @@
 .contact {
     background-color: var(--alabaster);
-    position: relative;
+    background-image: url('https://res.cloudinary.com/dxyv6bnjd/image/upload/v1633118812/bootcamp/background_mufor6.jpg');
+    display: flex;
+
+    .left {
+        flex: 0.2;
+        overflow: hidden;
+        padding: 5%;
+        display: flex;
+        justify-content: center;
+
+        .icon {
+            font-size: 200px;
+            color: var(--medGray);
+           
+        }
+
+    }
+
+    .right {
+        flex: 0.8;
+        padding: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        // justify-content: center;
+
+        h2 {
+            font-size: 30px;
+
+        }
+
+        form {
+            width: 70%;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 20px;
+            gap: 20px;
+
+            input {
+                width: 300px;
+                height: 30px;
+                font-size: 14px;
+            }
+
+            textarea {
+
+                width: 300px;
+                height: 200px;
+                font-size: 14px;
+            }
+
+            button {
+                width: 150px;
+                height: 30px;
+                color: white;
+                background-color: var(--gold);
+                border: none;
+                border-radius: 5px;
+                font-weight: 500;
+                cursor: pointer;
+
+                &:focus {
+                    outline: none;
+                }
+            }
+
+            span {
+                color: var(--dkAqua);
+                font-size: 18px;
+                font-weight: 500;
+            }
+        }
+    }
 }
