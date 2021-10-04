@@ -23,9 +23,10 @@ function App() {
               <Works/>
               <Resume/>
               <Contact/>
-              <Footer/>
           </div>
+          <Footer/>
     </div>
+    
   );
 }
 

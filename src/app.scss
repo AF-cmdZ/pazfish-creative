@@ -1,5 +1,11 @@
 .app {
-    height: 100vh
+    height: 100vh;
+
+    .footer {
+        height: 30px;
+        position: absolute;
+        bottom: 0px;
+    }
 }
 .sections {
     width: 100%;

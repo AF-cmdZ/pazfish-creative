@@ -10,11 +10,11 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
                     <a href="#intro" className="logo"><img src="assets/PazFish_Logo_2021_RGB.png" alt="logo" width="200"/></a>
                     <div className="itemContainer">
                         <Person className="icon"/>
-                        <span>314-884-1873‬</span>
+                        <span><a href="tel:+13148841873‬">314-884-1873‬</a></span>
                     </div>
                     <div className="itemContainer">
                         <Mail className="icon"/>
-                        <span>ashley.paz.fish@me.com</span>
+                        <span><a href="mailto:ashley.paz.fish@me.com">ashley.paz.fish@me.com</a></span>
                     </div>
                 </div>
                 <div className="right">
