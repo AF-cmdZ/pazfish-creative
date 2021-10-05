@@ -1,5 +1,6 @@
 import React from "react";
 import "./navigation.scss";
+import resume from "../../assets/PAZFISHresume2021.pdf";
 
 export default function Menu({ menuOpen, setMenuOpen }) {
     return (
@@ -21,7 +22,7 @@ export default function Menu({ menuOpen, setMenuOpen }) {
                     <a href="#contact">Contact</a>
                 </li>
                 <li onClick={()=>setMenuOpen(false)}>
-                    <a href="assets/PAZFISHresume2021.pdf" target="blank">Download PDF Resume</a>
+                    <a href={resume} target="blank">Download PDF Resume</a>
                 </li>
             </ul>
         </div>

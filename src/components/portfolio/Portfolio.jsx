@@ -1,8 +1,9 @@
 import { React, useState, useEffect } from "react";
 import "./portfolio.scss";
 import Project from '../project/Project.jsx';
-import { featuredPortfolio, webAppPortfolio, designPortfolio, posPortfolio} from "../../data.js";
+import { featuredPortfolio, webAppPortfolio, designPortfolio, posPortfolio} from "./data.js";
 import {KeyboardArrowDown} from "@material-ui/icons"
+
 
 export default function Portfolio() {
     const [selected, setSelected] = useState("featured");

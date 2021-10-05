@@ -1,13 +1,14 @@
 import React from "react";
 import "./header.scss";
-import {Person, Mail} from "@material-ui/icons"
+import {Person, Mail} from "@material-ui/icons";
+import Logo from "./assets/PazFish_Logo_2021_RGB.png";
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
     return (
         <div className={"topbar " + (menuOpen && "active") }>
             <div className="wrapper">
                 <div className="left">
-                    <a href="#intro" className="logo"><img src="assets/PazFish_Logo_2021_RGB.png" alt="logo" width="200"/></a>
+                    <a href="#intro" className="logo"><img src={Logo} alt="logo" width="200"/></a>
                     <div className="itemContainer">
                         <Person className="icon"/>
                         <span><a href="tel:+13148841873‬">314-884-1873‬</a></span>

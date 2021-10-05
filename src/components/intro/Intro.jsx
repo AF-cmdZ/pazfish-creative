@@ -2,6 +2,7 @@ import { React, useEffect, useRef } from "react";
 import "./intro.scss";
 import {KeyboardArrowDown} from "@material-ui/icons"
 import { init } from "ityped";
+import bioPic from "./assets/AshleyFish_bioPic_web_crop.jpg";
 
 export default function Intro() {
 
@@ -21,7 +22,7 @@ export default function Intro() {
         <div className="intro" id="intro">
                 <div className="wrapper">
                     <div className="imgContainer">
-                        <img src="assets/AshleyFish_bioPic_web_crop.jpg" alt=""/>
+                        <img src={bioPic} alt=""/>
                     </div>
                     <h3>Ashley Paz Fish</h3>
                     <h1><span ref={textRef}></span>&nbsp;</h1>

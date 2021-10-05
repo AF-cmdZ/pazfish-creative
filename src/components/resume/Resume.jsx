@@ -1,5 +1,6 @@
 import React from "react";
 import "./resume.scss";
+import resume from "../../assets/PAZFISHresume2021.pdf";
 
 export default function Resume() {
     return (
@@ -115,7 +116,7 @@ export default function Resume() {
                     </div>
                 </div>
                 <div className="pdf-right">
-                    <a href="assets/PAZFISHresume2021.pdf" target="_blank">Download PDF Resume</a>
+                    <a href={resume} target="_blank" rel="noreferrer">Download PDF Resume</a>
                 </div>
             </div>
         </div>

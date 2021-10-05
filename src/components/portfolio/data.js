@@ -1,20 +1,24 @@
+import myDaily from "./assets/myDaily.png";
+import ironThrone from "./assets/theIronThrone.png";
+import jsQuiz from "./assets/javaScript_Quiz.png";
+
 export const featuredPortfolio = [
     {
         id: 1,
         title: "My Daily",
-        img: "assets/myDaily.png",
+        img: myDaily,
         link: "https://af-cmdz.github.io/myDaily/",
     },
     {
         id: 2,
         title: "JavaScript Quiz",
-        img: "assets/javaScript_Quiz.png",
+        img: jsQuiz,
         link: "https://af-cmdz.github.io/JavaScript_Quiz/",
     },
     {
         id: 3,
         title: "The Iron Throne",
-        img: "assets/theIronThrone.png",
+        img: ironThrone,
         link: "https://stormy-bastion-03201.herokuapp.com/",
     }
 ];
@@ -23,19 +27,19 @@ export const webAppPortfolio = [
     {
         id: 1,
         title: "The Iron Throne",
-        img: "assets/theIronThrone.png",
+        img: ironThrone,
         link: "https://stormy-bastion-03201.herokuapp.com/",
     },
     {
         id: 2,
         title: "My Daily",
-        img: "assets/myDaily.png",
+        img: myDaily,
         link: "https://af-cmdz.github.io/myDaily/",
     },
     {
         id: 3,
         title: "JavaScript Quiz",
-        img: "assets/javaScript_Quiz.png",
+        img: jsQuiz,
         link: "https://af-cmdz.github.io/JavaScript_Quiz/",
     }
 ];
