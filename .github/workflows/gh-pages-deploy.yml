@@ -1,0 +1,25 @@
+# This is a simple GitHub action to deploy a Single Page App to GitHub pages
+# Change the branch name according to your needs.
+# The npm package gh-pages is required as dev-dependency in your package.json for this to work
+# You must set a homepage field in package.json
+# Your deploy script must work properly
+
+name: Deploy To Github Pages
+
+on:
+  push:
+    branches:
+    - master
+    - main
+    
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    name: Deploy to Github Pages
+    steps:
+    - uses: actions/checkout@v2 
+    - run: git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+    - run: npm ci
+    - run: npm run deploy -- -u "github-actions-bot <support+actions@github.com>"
+    env: 
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
