@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/pazfish-creative/static/css/main.99236476.chunk.css",
-    "main.js": "/pazfish-creative/static/js/main.2d76c602.chunk.js",
-    "main.js.map": "/pazfish-creative/static/js/main.2d76c602.chunk.js.map",
+    "main.css": "/pazfish-creative/static/css/main.0211842c.chunk.css",
+    "main.js": "/pazfish-creative/static/js/main.6a2ebb8c.chunk.js",
+    "main.js.map": "/pazfish-creative/static/js/main.6a2ebb8c.chunk.js.map",
     "runtime-main.js": "/pazfish-creative/static/js/runtime-main.8284243c.js",
     "runtime-main.js.map": "/pazfish-creative/static/js/runtime-main.8284243c.js.map",
     "static/js/2.3921f4f8.chunk.js": "/pazfish-creative/static/js/2.3921f4f8.chunk.js",
     "static/js/2.3921f4f8.chunk.js.map": "/pazfish-creative/static/js/2.3921f4f8.chunk.js.map",
     "index.html": "/pazfish-creative/index.html",
-    "static/css/main.99236476.chunk.css.map": "/pazfish-creative/static/css/main.99236476.chunk.css.map",
+    "static/css/main.0211842c.chunk.css.map": "/pazfish-creative/static/css/main.0211842c.chunk.css.map",
     "static/js/2.3921f4f8.chunk.js.LICENSE.txt": "/pazfish-creative/static/js/2.3921f4f8.chunk.js.LICENSE.txt",
     "static/media/AshleyFish_bioPic_web_crop.b0fd4f06.jpg": "/pazfish-creative/static/media/AshleyFish_bioPic_web_crop.b0fd4f06.jpg",
     "static/media/PAZFISHresume2021.dd7538ad.pdf": "/pazfish-creative/static/media/PAZFISHresume2021.dd7538ad.pdf",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.8284243c.js",
     "static/js/2.3921f4f8.chunk.js",
-    "static/css/main.99236476.chunk.css",
-    "static/js/main.2d76c602.chunk.js"
+    "static/css/main.0211842c.chunk.css",
+    "static/js/main.6a2ebb8c.chunk.js"
   ]
 }
