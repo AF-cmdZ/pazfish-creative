@@ -1,2 +1,0 @@
-# pazfish-creative
-react portfolio
